@@ -28,19 +28,19 @@
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-style: bold;
   padding-top: 26px;
-  color: #8DC3C4;
+  color: #81D8D0;
 }
 
 .links a {
-  color: #C5908E;
+  color: #81D8D0;
   font-size: 25px;
-  border-bottom: 1px solid #8DC3C4;
+  border-bottom: 1px solid #81D8D0;
   font-family: 'Pacifico', cursive;
   font-weight: bold;
 }
 
 .header {
-  border-top: 9px solid #C5908E;
+  border-top: 9px solid #ECC5C0;
 }
 
 .hr{
@@ -55,7 +55,7 @@
   font-family: 'Pacifico', cursive;}
 
 .next-quote {
-  color:#5CB3FF;
+  color:#81D8D0;
   font-family: 'Pacifico', cursive;
   font-size: 15px;
 }
@@ -65,8 +65,43 @@ font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, 
 font-style: bold;
 text-align: right;
 font-size: 10px;
+color:#81D8D0;
 }
 
 .logo:hover {
   text-decoration: none;
+}
+
+.about {font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
+}
+
+h2 span {
+  color: #81D8D0;
+  font-family: 'Pacifico', cursive;
+}
+
+.h1{
+  font-family: 'Pacifico', cursive;
+  font-weight:bold;
+  font-size: 45px;
+}
+
+.btn {
+  background: #ECC5C0;
+  border: 1px solid #F7F7F7;
+}
+
+::selection {
+  background-color: #f84342;
 }
